@@ -13,7 +13,7 @@ namespace DesignPatterns
 
             return 0.9 * amount;
 
-            throw new NotImplementedException();
+            
 
             
         }

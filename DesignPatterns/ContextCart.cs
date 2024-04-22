@@ -10,9 +10,11 @@ namespace DesignPatterns
     {
         private Discount _Discount;
 
-        public ContextCart(Discount discount)
+       
+
+        public void setTier(Discount _Discount)
         {
-            _Discount = discount;
+            this._Discount = _Discount;
         }
 
         public double TotalAmount(double amount) 

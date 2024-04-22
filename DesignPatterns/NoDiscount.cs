@@ -12,7 +12,6 @@ namespace DesignPatterns
         {
             return amount;
 
-            throw new NotImplementedException();
-        }
+                    }
     }
 }
